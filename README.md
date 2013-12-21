@@ -9,13 +9,15 @@ Usage
 To use the cookbook, create the following entries in your `node.json`:
 
     {
-      "vpn_ip_range": "xxx.xxx.xxx.2-xxx.xxx.xxx.254",
-      "vpn_local_ip": "xxx.xxx.xxx.1",
-      "subnet_cidr": "xxx.xxx.xxx.0/24",
-      "ipsec_psk": "some very long psk",
-      "users": [
-        {"username": "USER", "password": "PASS"}
-      ]
+      "openswan": {
+        "vpn_ip_range": "xxx.xxx.xxx.2-xxx.xxx.xxx.254",
+        "vpn_local_ip": "xxx.xxx.xxx.1",
+        "subnet_cidr": "xxx.xxx.xxx.0/24",
+        "ipsec_psk": "some very long psk",
+        "users": [
+          {"username": "USER", "password": "PASS"}
+        ]
+      }
     }
 
 VPN Setup
