@@ -1,3 +1,4 @@
+name             "openswan"
 maintainer       "NPM"
 maintainer_email "developers@npm.com"
 license          "MIT"
